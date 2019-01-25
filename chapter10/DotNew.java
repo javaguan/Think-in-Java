@@ -1,7 +1,7 @@
 package chapter10;
 
 public class DotNew {
-	public class Inner{
+	public class Inner{//ÓëDotThis.InnerÃüÃû²»³åÍ»
 		Inner(){System.out.println("inner");}
 	}
 	public static void main(String[] args) {
