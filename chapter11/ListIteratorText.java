@@ -8,7 +8,7 @@ import java.util.ListIterator;
 public class ListIteratorText {
 public static void main(String[] args) {
 	List<Integer>list=new ArrayList<>(Arrays.asList(1,1,2,3,3,4,5,5));
-	ListIterator<Integer> listIterator1=list.listIterator(3);
+	ListIterator<Integer> listIterator1=list.listIterator(3);//（）内的数字为开始索引，默认索引为‘0’
 	while(listIterator1.hasNext()) {
 		System.out.println(listIterator1.next());
 	}
